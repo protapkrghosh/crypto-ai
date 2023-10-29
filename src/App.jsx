@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <p className="text-2xl">
+      <p className="text-xl">
         Click on the Vite and React logos to learn more
       </p>
     </>
