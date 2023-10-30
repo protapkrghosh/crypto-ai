@@ -5,7 +5,7 @@ import Container from '../../../Components/Container';
 
 const Metamask = () => {
   return (
-    <div className='bg-gradient-to-b from-[#130e33] from-5% via-[#030014ec] via-50% to-[#1d1646] to-80%">
+    <div className='bg-gradient-to-b from-[#130e33] from-5% via-[#030014ec] via-50% to-[#18123a] to-100%">
       <div className="recta pt-20 md:pt-32'>
       <Container>
         <div className='grid grid-cols-1 md:grid-cols-2'>
