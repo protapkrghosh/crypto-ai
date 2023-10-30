@@ -5,7 +5,7 @@ import Container from "../../../Components/Container";
 
 const Banner = () => {
   return (
-    <div className="bg-gradient-to-b from-[#231c51] from-10% via-[#030014] via-40% to-[#231c51] to-90%">
+    <div className="bg-gradient-to-b from-[#1f1a49] from-10% via-[#030014] via-40% to-[#120d31] to-100%">
       <div className="rectangle">
         <div className="min-h-[100vh] bg-robot">
 
@@ -32,7 +32,7 @@ const Banner = () => {
               {/* Ai content card */}
               <div className="md:ml-14 mt-10 md:mt-0">
                 <div>
-                  <div className="flex items-center border border-[#362d71a4] rounded-3xl px-10 py-4 bg-gradient-to-r from-[#0401163f] from-10% to-[#1f1a41] to-90% w-[350px]">
+                  <div className="flex items-center border border-[#362d719c] rounded-3xl px-10 py-4 bg-gradient-to-r from-[#0e0a27] from-10% to-[#1d183b] to-90% w-[350px]">
                     <img src={aiCircle} alt="" className="w-20 mr-8" />
                     <div>
                       <h3 className="text-[#DDD7E9] text-4xl">ai.com</h3>
