@@ -1,0 +1,13 @@
+.border-gradient {
+  color: #FFFFFF;
+  background: linear-gradient(#15122a, #15122a ) padding-box,
+  linear-gradient(90deg, #612EFE, #B899FE) border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.border-gradient:hover {
+  background: linear-gradient(to right, #612EFE, #B899FE ) padding-box,
+  linear-gradient(90deg, #612EFE, #B899FE) border-box;
+}
