@@ -13,7 +13,20 @@ const Banner = () => {
           <Container>
             <div className="lg:flex justify-end gap-72 pt-14 md:pt-32">
               <div>
-                <h2 className="text-5xl md:text-7xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#8f92b5] leading-10 text-center md:text-start">Welcome <br /> to Ai.com</h2>
+                <h2 className="text-5xl md:text-7xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#8f92b5] leading-10">Welcome <br /> to Ai.com</h2>
+
+                {/* Count */}
+                <div className="mt-10 md:mt-72">
+                  <div className="flex items-center mb-8">
+                    <p className="text-4xl text-[#DDD7E9] mr-5">205+</p>
+                    <p className="text-[#64677C] text-[15px] uppercase">ai.com with <br /> punycode</p>
+                  </div>
+
+                  <div className="flex items-center mb-8">
+                    <p className="text-4xl text-[#DDD7E9] mr-5">2000%</p>
+                    <p className="text-[#64677C] text-[15px] uppercase">ai.com with <br /> punycode</p>
+                  </div>
+                </div>
               </div>
 
               {/* Ai content card */}
@@ -33,6 +46,7 @@ const Banner = () => {
                     machine vision.
                   </p>
 
+                  {/* Explore Badge */}
                   <div className="flex justify-end mt-14">
                     <img src={badge} alt="" className="w-44"/>
                   </div>
