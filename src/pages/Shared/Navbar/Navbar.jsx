@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='sticky top-0 z-50 duration-300 bg-[#808AF6] text-white'>
+    <div className='z-50 duration-300 bg-[#808AF6] text-white'>
       <Container>
         <div className="drawer">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
