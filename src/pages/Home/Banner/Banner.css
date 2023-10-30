@@ -1,0 +1,13 @@
+.rectangle {
+  background-image: url(../../../assets/Rectangle.png);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.bg-robot {
+  background-image: url(../../../assets/robot_man.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
