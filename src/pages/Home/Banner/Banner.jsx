@@ -1,5 +1,6 @@
 import "./Banner.css"
 import aiCircle from "../../../assets/ai-circle.png"
+import badge from "../../../assets/badge.png"
 import Container from "../../../Components/Container";
 
 const Banner = () => {
@@ -10,13 +11,13 @@ const Banner = () => {
 
           {/* Banner contents */}
           <Container>
-            <div className="flex justify-end gap-72 md:pt-32">
+            <div className="lg:flex justify-end gap-72 pt-14 md:pt-32">
               <div>
-                <h2 className="text-3xl md:text-7xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#8f92b5] leading-10">Welcome <br /> to Ai.com</h2>
+                <h2 className="text-5xl md:text-7xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#8f92b5] leading-10 text-center md:text-start">Welcome <br /> to Ai.com</h2>
               </div>
 
               {/* Ai content card */}
-              <div className="ml-14">
+              <div className="md:ml-14 mt-10 md:mt-0">
                 <div>
                   <div className="flex items-center border border-[#362d71a4] rounded-3xl px-10 py-4 bg-gradient-to-r from-[#0401163f] from-10% to-[#1f1a41] to-90% w-[350px]">
                     <img src={aiCircle} alt="" className="w-20 mr-8" />
@@ -31,6 +32,10 @@ const Banner = () => {
                     processing, speech recognition and
                     machine vision.
                   </p>
+
+                  <div className="flex justify-end mt-14">
+                    <img src={badge} alt="" className="w-44"/>
+                  </div>
                 </div>
               </div>
             </div>
