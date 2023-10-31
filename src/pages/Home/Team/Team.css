@@ -8,3 +8,10 @@
   background-repeat: repeat-y;
   background-size: cover;
 }
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .customLeading {
+    line-height: 40px;
+  }
+}

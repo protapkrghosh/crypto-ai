@@ -11,12 +11,12 @@ const Banner = () => {
 
           {/* Banner contents */}
           <Container>
-            <div className="lg:flex justify-end gap-72 pt-14 md:pt-32">
-              <div>
-                <h2 className="text-5xl md:text-7xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#8f92b5] leading-10">Welcome <br /> to Ai.com</h2>
+            <div className="md:flex gap-8 pt-14 md:pt-32">
+              <div className="lg:w-3/4">
+                <h2 className="text-5xl lg:text-7xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#8f92b5] leading-10">Welcome <br /> to Ai.com</h2>
 
                 {/* Count */}
-                <div className="mt-10 md:mt-72">
+                <div className="mt-10 md:mt-40 lg:mt-72">
                   <div className="flex items-center mb-8">
                     <p className="text-4xl text-[#DDD7E9] mr-5">205+</p>
                     <p className="text-[#64677C] text-[15px] uppercase">ai.com with <br /> punycode</p>
@@ -30,7 +30,7 @@ const Banner = () => {
               </div>
 
               {/* Ai content card */}
-              <div className="md:ml-14 mt-10 md:mt-0">
+              <div className="lg:w-1/3 mt-10 md:mt-0">
                 <div>
                   <div className="flex items-center border border-[#362d719c] rounded-3xl px-10 py-4 bg-gradient-to-r from-[#0e0a27] from-10% to-[#1d183b] to-90% w-[350px]">
                     <img src={aiCircle} alt="" className="w-20 mr-8" />
@@ -47,8 +47,8 @@ const Banner = () => {
                   </p>
 
                   {/* Explore Badge */}
-                  <div className="flex justify-end mt-14">
-                    <img src={badge} alt="" className="w-44"/>
+                  <div className="flex justify-end md:mt-14">
+                    <img src={badge} alt="" className="w-20 md:w-44"/>
                   </div>
                 </div>
               </div>

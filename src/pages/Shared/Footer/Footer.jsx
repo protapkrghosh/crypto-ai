@@ -3,7 +3,7 @@ import Container from "../../../Components/Container";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-b from-[#3B2270] to-[#030014]">
+    <div className="bg-gradient-to-b from-[#3B2270] to-[#030014] -mt-[1px]">
       <Container>
         <footer className="flex-none md:flex py-16">
           <div>
