@@ -1,3 +1,7 @@
+.cusLeading {
+  line-height: 90px;
+}
+
 .rectangle {
   background-image: url(../../../assets/Rectangle.png);
   background-position: center;
@@ -21,6 +25,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .cusLeading {
+    line-height: 60px;
+  }
+
   .bg-robot {
     background-position: bottom;
     background-size: 60%;
