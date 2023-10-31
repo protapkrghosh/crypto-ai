@@ -11,16 +11,16 @@
 
 .bg-robot {
   background-image: url(../../../assets/robot_man.png);
-  background-position: bottom;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 40%;
 }
 
 /* Responsive */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1200px) {
+
   .bg-robot {
-    background-position: bottom;
-    background-size: 20%;
+    background-size: 50%;
   }
 }
 
@@ -30,7 +30,22 @@
   }
 
   .bg-robot {
-    background-position: bottom;
-    background-size: 60%;
+    background-position: center top;
+    background-size: 70%;
+  }
+
+  .cusPadding {
+    padding-top: 68%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .bg-robot {
+    background-position: center top;
+    background-size: 80%;
+  }
+
+  .cusPadding {
+    padding-top: 75%;
   }
 }
