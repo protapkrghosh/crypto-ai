@@ -1,6 +1,7 @@
 import AiExchanges from "../AiExchanges/AiExchanges";
 import Banner from "../Banner/Banner";
 import Metamask from "../Metamask/Metamask";
+import Roadmap from "../Roadmap/Roadmap";
 import Team from "../Team/Team";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Team />
       <Metamask />
       <AiExchanges />
+      <Roadmap />
     </div>
   );
 };
