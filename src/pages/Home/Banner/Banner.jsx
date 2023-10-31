@@ -13,7 +13,7 @@ const Banner = () => {
           <Container>
             <div className="md:flex gap-8 cusPadding md:pt-32 pb-5 md:pb-0">
               <div className="lg:w-3/4">
-                <h2 className="text-5xl lg:text-7xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#8f92b5] cusLeading">Welcome <br /> to Ai.com</h2>
+                <h2 className="text-5xl lg:text-7xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#8f92b5] cusLeading">Welcome <br /> <span className="BaShadow bg-clip-text bg-[#FFFFFF]">to Ai.</span>com</h2>
 
                 {/* Count */}
                 <div className="mt-10 md:mt-40 lg:mt-72">
