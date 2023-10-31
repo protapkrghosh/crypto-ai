@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className="bg-gradient-to-b from-[#1f1a49] from-10% via-[#030014] via-40% to-[#120d31] to-100%">
       <div className="rectangle">
-        <div className="min-h-[100vh] bg-robot">
+        <div className="min-h-[100vh] ">
 
           {/* Banner contents */}
           <Container>
