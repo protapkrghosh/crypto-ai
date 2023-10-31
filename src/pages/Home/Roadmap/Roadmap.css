@@ -1,3 +1,21 @@
 .TextShadow {
   filter: drop-shadow(250px -100px 70px #6952eb);
 }
+
+.flexMap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .flexMap {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: baseline;
+  }
+}
+
