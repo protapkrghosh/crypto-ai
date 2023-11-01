@@ -31,7 +31,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className='bg-gradient-to-b from-[#030015] from-5% via-[#040117] via-50% to-[#030014] to-100% -mt-[1px] py-20'>
+    <div className='bg-gradient-to-b from-[#030015] from-5% via-[#040117] via-50% to-[#030014] to-100% -mt-[1px] pt-20 pb-28'>
 
       {/* Section title */}
       <div>
