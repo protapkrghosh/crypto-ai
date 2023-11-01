@@ -30,7 +30,7 @@ const Roadmap = () => {
       </Container>
 
       {/* Roadmap content */}
-      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 border-b-8 border-[#1B1545]'>
+      <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 border-b-8 border-[#1B1545] w-[82%] mx-auto'>
         <div className='flex justify-center items-end pb-6'>
           <p className='text-[13px] text-[#64677C]'>Q4 2023</p>
         </div>
@@ -44,7 +44,7 @@ const Roadmap = () => {
           </div>
 
           <div className='relative'>
-            <img src={icon} alt="Icon" className='absolute -left-[43px] top-[10px]' />
+            <img src={icon} alt="Icon" className='w-8 absolute -left-[40px] top-[12px]' />
           </div>
         </div>
 
@@ -57,7 +57,7 @@ const Roadmap = () => {
           <p className='text-[13px] text-[#64677C] text-center'>Q2 2022</p>
 
           <div className='relative'>
-            <img src={icon} alt="Icon" className='absolute -left-[43px] top-[10px]' />
+            <img src={icon} alt="Icon" className='w-8 absolute -left-[40px] top-[12px]' />
           </div>
         </div>
 
@@ -67,10 +67,53 @@ const Roadmap = () => {
           <p className='text-[13px] text-[#64677C] leading-7 mb-16'>minimum 3-month <br /> Begin marketing the <br /> Project to community</p>
 
           <div className='relative'>
-            <img src={icon} alt="Icon" className='absolute -left-[43px] top-[28px]' />
+            <img src={icon} alt="Icon" className='w-8 absolute -left-[40px] top-[31px]' />
           </div>
         </div>
       </div>
+
+      <Container>
+        <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-[82%] mx-auto'>
+          {/* Phase 1 */}
+          <div className='border-l border-[#7A49FF] pl-6 pb-6'>
+            <div className='relative'>
+              <img src={icon} alt="Icon" className='w-8 absolute -left-[41px] -top-[20px]' />
+            </div>
+
+            <div className=''>
+              <p className='text-[13px] text-[#64677C] text-center my-8'>Q5 2023</p>
+              <h4 className='text-[20px] text-[#DDD7E9] mb-4'>Phase 1</h4>
+              <p className='text-[13px] text-[#64677C] leading-7'>Set up the core team <br /> Set up strong advisory team <br /> $500k MC</p>
+            </div>
+          </div>
+
+          {/* Phase 3 */}
+          <div className='border-l border-[#7A49FF] pl-6 pb-6'>
+            <div className='relative'>
+              <img src={icon} alt="Icon" className='w-8 absolute -left-[41px] -top-[20px]' />
+            </div>
+
+            <div className=''>
+              <p className='text-[13px] text-[#64677C] text-center my-8'>Q9 2023</p>
+              <h4 className='text-[20px] text-[#DDD7E9] mb-4'>Phase 3</h4>
+              <p className='text-[13px] text-[#64677C] leading-7'>5000 Telegram members <br /> $3.5m MC <br /> Continue heavy marketing</p>
+            </div>
+          </div>
+
+          {/* Phase 5 */}
+          <div className='border-l border-[#7A49FF] pl-6 pb-6'>
+            <div className='relative'>
+              <img src={icon} alt="Icon" className='w-8 absolute -left-[41px] -top-[20px]' />
+            </div>
+
+            <div className=''>
+              <p className='text-[13px] text-[#64677C] text-center my-8'>Q2 2023</p>
+              <h4 className='text-[20px] text-[#DDD7E9] mb-4'>Phase 5</h4>
+              <p className='text-[13px] text-[#64677C] leading-7'>crypto community and beyond <br /> Heavy marketing planned <br /> Launch on Uniswap</p>
+            </div>
+          </div>
+        </div>
+      </Container>
     </div>
   );
 };
