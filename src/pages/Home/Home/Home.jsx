@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Metamask from "../Metamask/Metamask";
 import Roadmap from "../Roadmap/Roadmap";
 import Team from "../Team/Team";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Metamask />
       <AiExchanges />
       <Roadmap />
+      <Testimonial />
     </div>
   );
 };

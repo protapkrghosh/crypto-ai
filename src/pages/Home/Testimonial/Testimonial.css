@@ -1,0 +1,7 @@
+.TextShadow1 {
+  filter: drop-shadow(-220px 40px 50px #7058fa);
+}
+
+.TextShadow2 {
+  filter: drop-shadow(-50px -50px 50px #7058fa);
+}
