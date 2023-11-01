@@ -75,7 +75,10 @@ const Roadmap = () => {
       <Container>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[92%] md:w-[85%] 2xl:w-[100%] mx-auto'>
           {/* Phase 1 */}
-          <div className='border-l border-[#7A49FF] pl-6 pb-6'>
+          <div className='border-l border-[#7A49FF] pl-6 pb-6 relative'>
+            {/* Customize border */}
+            <div className='md:border border-dashed border-[#7A49FF] w-[50%] 2xl:w-[70%] absolute -left-[50%] 2xl:-left-[70%] -mt-[5px]'></div>
+
             <div className='relative'>
               <img src={icon} alt="Icon" className='w-8 absolute -left-[41px] -top-[32px] md:-top-[20px]' />
             </div>
