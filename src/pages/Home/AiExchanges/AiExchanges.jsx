@@ -7,6 +7,7 @@ const AiExchanges = () => {
     <div className='bg-gradient-to-b from-[#1b1542] from-5% via-[#030014] via-50% to-[#130e33] to-100% -mt-[1px] pt-28 pb-14 md:pt-40'>
       <Container>
         <div>
+          {/* Section title */}
           <p className='text-4xl md:text-6xl text-[#DDD7E9] text-center px-2 customLeading'>AI is available on these <br /> exchanges</p>
 
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10'>
