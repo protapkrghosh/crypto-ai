@@ -83,8 +83,8 @@ const Roadmap = () => {
               <img src={icon} alt="Icon" className='w-8 absolute -left-[41px] -top-[32px] md:-top-[20px]' />
             </div>
 
-            <div>
-              <p className='text-[13px] text-[#64677C] md:text-center mt-8 mb-3 md:my-8'>Q5 2023</p>
+            <p className='text-[13px] text-[#64677C] md:text-center mt-8 mb-3 md:my-8'>Q5 2023</p>
+            <div className='phaseFirst'>
               <h4 className='text-[20px] text-[#DDD7E9] mb-4'>Phase 1</h4>
               <p className='text-[13px] text-[#64677C] leading-7'>Set up the core team <br /> Set up strong advisory team <br /> $500k MC</p>
             </div>
@@ -109,7 +109,7 @@ const Roadmap = () => {
               <img src={icon} alt="Icon" className='w-8 absolute -left-[41px] top-[7px] md:-top-[20px]' />
             </div>
 
-            <div className='pt-9 md:pt-0'>
+            <div className='pt-9 md:pt-0 phaseFive'>
               <p className='text-[13px] text-[#64677C] md:text-center mt-8 mb-3 md:my-8'>Q2 2023</p>
               <h4 className='text-[20px] text-[#DDD7E9] mb-4'>Phase 5</h4>
               <p className='text-[13px] text-[#64677C] leading-7'>crypto community and beyond <br /> Heavy marketing planned <br /> Launch on Uniswap</p>

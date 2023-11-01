@@ -9,11 +9,20 @@
   align-items: center;
 }
 
+.phaseFirst {
+  filter: drop-shadow(-160px 100px 30px #7058fa);
+}
+
 .phaseTwo {
   filter: drop-shadow(150px -50px 30px #7058fa);
 }
+
 .phaseFour {
   filter: drop-shadow(-50px -100px 40px #7058fa);
+}
+
+.phaseFive {
+  filter: drop-shadow(220px 100px 50px #7058fa);
 }
 
 /* Responsive */
