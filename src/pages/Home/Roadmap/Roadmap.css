@@ -9,6 +9,13 @@
   align-items: center;
 }
 
+.phaseTwo {
+  filter: drop-shadow(150px -50px 30px #7058fa);
+}
+.phaseFour {
+  filter: drop-shadow(-50px -100px 40px #7058fa);
+}
+
 /* Responsive */
 @media only screen and (max-width: 768px) {
   .flexMap {
