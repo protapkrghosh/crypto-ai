@@ -15,7 +15,7 @@ const Roadmap = () => {
             <h4 className='text-4xl md:text-6xl text-white'>Our <span className='TextShadow'>Roadmap</span></h4>
           </div>
 
-          {/* chat board icon */}
+          {/* chat board icons */}
           <div className='flex items-center gap-10 mt-3 md:mt-0'>
             <div className='flex items-center'>
               <img src={ChatIcon} alt="Chat Icon" className='w-5 md:w-6' />
