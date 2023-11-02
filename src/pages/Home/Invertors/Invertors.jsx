@@ -6,7 +6,7 @@ import handImage from '../../../assets/image_23.png'
 
 const Investors = () => {
   return (
-    <div className='bg-gradient-to-b from-[#171238] from-5% via-[#09051e] via-50% to-[#0a0621] to-100% -mt-[1px] md:pt-10 pb-[350px] md:pb-20'>
+    <div className='bg-gradient-to-b from-[#171238] from-5% via-[#09051e] via-50% to-[#0a0621] to-100% -mt-[1px] md:pt-10 pb-[350px] md:pb-16'>
       <Container>
         {/* Section Title */}
         <div>
@@ -22,8 +22,8 @@ const Investors = () => {
             </div>
           </div>
 
-          <div className='-mt-[500px] lg:-mt-[90px] z-10'>
-            <img src={ballImage} alt="Ball Image" className='w-[45%] md:w-[50%] lg:w-[55%] mx-auto ObjectShadow' />
+          <div className='-mt-[500px] md:-mt-[50px] lg:-mt-[90px] z-10'>
+            <img src={ballImage} alt="Ball Image" className='w-[45%] md:w-[60%] lg:w-[55%] mx-auto ObjectShadow' />
           </div>
 
           <div>
@@ -41,7 +41,7 @@ const Investors = () => {
         </div>
       </Container>
 
-      <div className='flex justify-end -mt-[450px] lg:-mt-20'>
+      <div className='flex justify-end -mt-[450px] md:-mt-[110px] lg:-mt-20'>
         <img src={handImage} alt="Hand Image" className='w-[80%] md:w-[70%]' />
       </div>
     </div>

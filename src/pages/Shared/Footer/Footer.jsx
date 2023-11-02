@@ -27,7 +27,7 @@ const Footer = () => {
             <nav>
               <header className="text-xl text-[#DDD7E9]">Contact Us</header>
               <div className="mt-5">
-                <input type="text" placeholder="Enter Your Email" className="text-[14px] text-white placeholder:text-white input input-bordered bg-[#7A49FF] w-60 pr-16 rounded-full pl-6" />
+                <input type="text" placeholder="Enter Your Email" className="text-[12px] text-white placeholder:text-white input input-bordered bg-[#7A49FF] w-60 pr-16 rounded-full pl-6" />
               </div>
             </nav>
           </div>

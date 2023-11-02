@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Testimonial.css";
 import Slider from 'react-infinite-logo-slider';
-import person1 from "../../../assets/person/person1.jpg";
-import person2 from "../../../assets/person/person2.jpeg";
+import person1 from "../../../assets/person/person2.jpeg";
+import person2 from "../../../assets/person/person1.jpg";
 import Container from '../../../Components/Container';
 
 const Testimonial = () => {
@@ -35,7 +35,9 @@ const Testimonial = () => {
 
       {/* Section title */}
       <div>
-        <h4 className='text-4xl md:text-6xl text-center text-white mb-16'><span className='TextShadow1'>WHAT</span> <span className='TextShadow2'>OTHERS SAY</span></h4>
+        <Container>
+          <h4 className='text-4xl md:text-6xl text-center text-white mb-16'><span className='TextShadow1'>WHAT</span> <span className='TextShadow2'>OTHERS SAY</span></h4>
+        </Container>
 
         {/* Testimonial infinite loop card */}
         <Slider duration={80} pauseOnHover={true} blurBorders={false} blurBorderColor={'#fff'} width="700px">

@@ -9,14 +9,14 @@ const Metamask = () => {
       <div className="recta pt-20 md:pt-32'>
       <Container>
         <div className='grid grid-cols-1 md:grid-cols-2'>
-          <div>
+          <div className='flex justify-center'>
             <img src={robot} alt="Robot" />
           </div>
 
           <div className='mt-0 md:mt-5'>
-            <p className='text-4xl text-[#DDD7E9] border-l-4 border-[#7949ff85] pl-5 md:-ml-0 lg:-ml-40'>Extension by going to <br /> metamask.io.</p>
+            <p className='text-4xl text-[#DDD7E9] border-l-4 border-[#7949ff85] pl-5 md:-ml-0 lg:-ml-20 2xl:-ml-32'>Extension by going to <br /> metamask.io.</p>
 
-            <div className=''>
+            <div>
               <p className='text-[#64677C] mt-12 mb-10'>
                 Connect to Uniswap Go to app.uniswap.org in google chrome or
                 on the browser inside your Metamask app. Connect your wallet.
