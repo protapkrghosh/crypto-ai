@@ -7,8 +7,8 @@ const Footer = () => {
       <Container>
         <footer className="flex-none md:flex py-16">
           <div>
-            <img src={logo} alt="" className='w-28' />
-            <p className='text-[#64677C] text-[15px] mt-10 md:w-[70%] mb-10 md:mb-0'>ChatAI, make life full of AI, talk to AI in the web page, in the telegram, in all chat tools, and AI answers any answer.</p>
+            <img src={logo} alt="" className='w-[90px]' />
+            <p className='text-[#64677C] text-[13px] mt-10 md:w-[70%] mb-10 md:mb-0'>ChatAI, make life full of AI, talk to AI in the web page, in the telegram, in all chat tools, and AI answers any answer.</p>
           </div>
 
           <div className='footer'>
