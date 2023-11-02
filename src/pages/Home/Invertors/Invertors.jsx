@@ -41,7 +41,7 @@ const Investors = () => {
         </div>
       </Container>
 
-      <div className='flex justify-end -mt-[450px] md:-mt-[110px] lg:-mt-20'>
+      <div className='flex justify-end -mt-[450px] md:-mt-[110px] lg:-mt-[70px]'>
         <img src={handImage} alt="Hand Image" className='w-[80%] md:w-[70%]' />
       </div>
     </div>
