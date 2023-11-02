@@ -7,7 +7,7 @@ import LayersSharp from '../../../assets/layers-sharp.png';
 
 const Roadmap = () => {
   return (
-    <div className='bg-gradient-to-b from-[#130e33] from-5% via-[#030014] via-50% to-[#1b1542] to-100% -mt-[1px] pt-20 pb-24'>
+    <div className='bg-gradient-to-b from-[#130e33] from-5% via-[#030014] via-50% to-[#171238] to-100% -mt-[1px] pt-20 pb-24'>
       {/* Section title */}
       <Container>
         <div className='flexMap mb-14'>
