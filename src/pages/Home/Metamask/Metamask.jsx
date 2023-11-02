@@ -23,10 +23,10 @@ const Metamask = () => {
                 Paste the $AI token address into Uniswap
               </p>
 
-              <div className='sm:flex-row flex flex-col justify-start gap-5 lg:gap-10'>
-                <button className="text-white text-[17px] btn bg-gradient-to-r from-[#612EFE] to-[#B899FE] px-8 md:px-6 lg:px-8 border-none rounded-3xl capitalize">Buy Now</button>
+              <div className='sm:flex-row flex flex-col justify-start gap-5 lg:gap-8'>
+                <button className="text-white text-[14px] btn bg-gradient-to-r from-[#612EFE] to-[#B899FE] px-8 md:px-6 lg:px-7 border-none rounded-[19px] capitalize">Buy Now</button>
 
-                <button className="border-gradient px-8 md:px-6 lg:px-8 py-3 rounded-3xl">Learn More</button>
+                <button className="border-gradient text-[14px] px-8 md:px-6 lg:px-7 py-3 rounded-[19px]">Learn More</button>
               </div>
             </div>
           </div>

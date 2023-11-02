@@ -13,7 +13,9 @@ const Team = () => {
 
               <p className='text-[#B0A3CA] md:w-[60%] mx-auto px-2 mt-5 mb-8'>ai.com which is spelled with the Latin ‘A’ which leads us back to the very first research on human nature</p>
 
-              <button className='text-white text-[17px] btn bg-gradient-to-r from-[#612EFE] to-[#B899FE] px-8 border-none rounded-3xl capitalize'>Explore</button>
+              <div className='sm:flex-row flex flex-col justify-start md:justify-center px-5 md:px-0'>
+                <button className="text-white text-[14px] btn bg-gradient-to-r from-[#612EFE] to-[#B899FE] px-8 md:px-6 lg:px-7 border-none rounded-[19px] capitalize">Explore</button>
+              </div>
             </div>
           </div>
         </div>

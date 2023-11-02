@@ -31,11 +31,11 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className='bg-gradient-to-b from-[#030015] from-5% via-[#040117] via-50% to-[#030014] to-100% -mt-[1px] pt-20 pb-28'>
+    <div className='bg-gradient-to-b from-[#0a0621] from-5% via-[#040117] via-50% to-[#030014] to-100% -mt-[1px] pt-20 pb-28'>
 
       {/* Section title */}
       <div>
-        <h4 className='text-4xl md:text-6xl text-center text-white mb-16'><span className='TextShadow1'>WHAT</span> <span className='TextShadow2'>OTHERS</span> SAY</h4>
+        <h4 className='text-4xl md:text-6xl text-center text-white mb-16'><span className='TextShadow1'>WHAT</span> <span className='TextShadow2'>OTHERS SAY</span></h4>
 
         {/* Testimonial infinite loop card */}
         <Slider duration={80} pauseOnHover={true} blurBorders={false} blurBorderColor={'#fff'} width="700px">
