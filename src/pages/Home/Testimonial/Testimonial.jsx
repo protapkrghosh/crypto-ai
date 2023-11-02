@@ -50,7 +50,7 @@ const Testimonial = () => {
 
                   <div className='flex justify-center items-center'>
                     <div>
-                      <img src={item.image} alt="" className='w-10 rounded-full' />
+                      <img src={item.image} alt="Image" className='w-10 rounded-full' />
                     </div>
 
                     <div className='text-[#64677C] ml-5'>
@@ -81,7 +81,7 @@ const Testimonial = () => {
 
                 <div className='flex justify-center items-center'>
                   <div>
-                    <img src={person1} alt="" className='w-10 rounded-full' />
+                    <img src={person1} alt="Image" className='w-10 rounded-full' />
                   </div>
 
                   <div className='text-[#64677C] ml-5'>
@@ -105,7 +105,7 @@ const Testimonial = () => {
 
                 <div className='flex justify-center items-center'>
                   <div>
-                    <img src={person2} alt="" className='w-10 rounded-full' />
+                    <img src={person2} alt="Image" className='w-10 rounded-full' />
                   </div>
 
                   <div className='text-[#64677C] ml-5'>
